@@ -188,14 +188,32 @@
 #
 #
 #==========================================================================================================================================================================================
-from Banknote_Coin_Bill.Coin import *
-from Banknote_Coin_Bill.Bill import *
+# from Banknote_Coin_Bill.Coin import *
+# from Banknote_Coin_Bill.Bill import *
+#
+# if __name__ == "__main__":
+#     coin10 = Coin("Bronze", "None", 10, 2009, "round", 15, "True")
+#     bill100 = Bill("Paper", "Yellow", 100, 2018, "rectangle", 142, 75, "AK12547863", "waterStamp.png", "facialPicture.png", "backPicture.png")
+#
+#     print("")
+#     coin10.show()
+#     print("\n-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n")
+#     bill100.show()
+#
+#
+#==========================================================================================================================================================================================
+import os
+import threading
+
+def writeInFile(array):
+    with open("file.txt", 'w') as file:
+        for item in array:
+            file.write(str(item) + ",")
 
 if __name__ == "__main__":
-    coin10 = Coin("Bronze", "None", 10, 2009, "round", 15, "True")
-    bill100 = Bill("Paper", "Yellow", 100, 2018, "rectangle", 142, 75, "AK12547863", "waterStamp.png", "facialPicture.png", "backPicture.png")
+    myArray = []
+    for i in range(1000000):
+        myArray.append(i)
 
-    print("")
-    coin10.show()
-    print("\n-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n")
-    bill100.show()
+    t1 = threading.Thread(target=writeInFile, args=(myArray, ))
+    t1.start()
