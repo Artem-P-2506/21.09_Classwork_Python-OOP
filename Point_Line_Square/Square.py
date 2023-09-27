@@ -9,29 +9,29 @@ class Square:
         return self.__line1.getPointA(), self.__line1.getPointB()
 
     def setLine1(self, newAX, newAY, newBX, newBY):
-        self.__line1.setA(newAX, newAY)
-        self.__line1.setB(newBX, newBY)
+        self.__line1.setPointA(newAX, newAY)
+        self.__line1.setPointB(newBX, newBY)
 
     def getLine2(self):
         return self.__line2.getPointA(), self.__line2.getPointB()
 
     def setLine2(self, newAX, newAY, newBX, newBY):
-        self.__line2.setA(newAX, newAY)
-        self.__line2.setB(newBX, newBY)
+        self.__line2.setPointA(newAX, newAY)
+        self.__line2.setPointB(newBX, newBY)
 
     def getLine3(self):
         return self.__line3.getPointA(), self.__line3.getPointB()
 
     def setLine3(self, newAX, newAY, newBX, newBY):
-        self.__line3.setA(newAX, newAY)
-        self.__line3.setB(newBX, newBY)
+        self.__line3.setPointA(newAX, newAY)
+        self.__line3.setPointB(newBX, newBY)
 
     def getLine4(self):
         return self.__line4.getPointA(), self.__line4.getPointB()
 
     def setLine4(self, newAX, newAY, newBX, newBY):
-        self.__line4.setA(newAX, newAY)
-        self.__line4.setB(newBX, newBY)
+        self.__line4.setPointA(newAX, newAY)
+        self.__line4.setPointB(newBX, newBY)
 
     def show(self):
         print(f"\n\tЛиния №1:")
