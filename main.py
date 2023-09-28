@@ -202,18 +202,116 @@
 #
 #
 #==========================================================================================================================================================================================
-import os
+# import os
+# import threading
+#
+# def writeInFile(array):
+#     with open("file.txt", 'w') as file:
+#         for item in array:
+#             file.write(str(item) + ",")
+#
+# if __name__ == "__main__":
+#     myArray = []
+#     for i in range(1000000):
+#         myArray.append(i)
+#
+#     t1 = threading.Thread(target=writeInFile, args=(myArray, ))
+#     t1.start()
+#
+#
+#==========================================================================================================================================================================================
 import threading
+import time
 
-def writeInFile(array):
-    with open("file.txt", 'w') as file:
-        for item in array:
-            file.write(str(item) + ",")
+def Timer(hours, minutes, secunds):
+    if (0 <= hours*60 + minutes*60 + secunds ):
+        isTime = True
+        while(isTime):
+            for secund in range(secunds):
+                print(f"Осталось: {hours}:{minutes}:{secunds-secund}")
+                time.sleep(1)
+            print(f"Осталось: {hours}:{minutes}:0")
+            time.sleep(1)
+            if minutes != 0:
+                secunds = 59
+                minutes -= 1
+                continue
+            elif hours != 0:
+                minutes = 59
+                secunds = 59
+                hours -= 1
+            else:
+                isTime = False
+                print("Время вышло!")
+    else:
+        print("Wrong input!")
+
+def Stopwatch(hours, minutes, secunds):
+    allTimeInSecunds = hours * 60 + minutes * 60 + secunds
+    if (0 <= allTimeInSecunds):
+        isTime = True
+        while (isTime):
+            hoursLeft = 0
+            minutesLeft = 0
+            secundLeft = 0
+            for i in range(allTimeInSecunds):
+                print(f"Прошло: {hoursLeft}:{minutesLeft}:{secundLeft}")
+                time.sleep(1)
+                secundLeft += 1
+
+                if secundLeft >= 60:
+                    if minutesLeft >= 60:
+                        hoursLeft += 1
+                    else:
+                        minutesLeft += 1
+                        secundLeft = 0
+                if i >= allTimeInSecunds - 1:
+                    isTime = False
+                    print("Время вышло!")
+    else:
+        print("Wrong input!")
+
+
 
 if __name__ == "__main__":
-    myArray = []
-    for i in range(1000000):
-        myArray.append(i)
+    hours = int(input("Введите сколько часов ждать: "))
+    minutes = int(input("Введите сколько минут ждать: "))
+    secunds = int(input("Введите сколько секунд ждать: "))
+    t1 = threading.Thread(target=Timer, args=(hours, minutes, secunds))
+    t2 = threading.Thread(target=Stopwatch, args=(hours, minutes, secunds))
+    choise = int(input("1/2"))
+    if choise == 1:
+        t1.start()
+    elif choise == 2:
+        t2.start()
 
-    t1 = threading.Thread(target=writeInFile, args=(myArray, ))
-    t1.start()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
