@@ -287,26 +287,3 @@
 #
 #
 #==========================================================================================================================================================================================
-from Tic_Tac_Toe.Game import *
-
-if __name__ == "__main__":
-
-
-
-
-    print("\n\t\t\t========== ПОЛЕ ==========")
-    showField(arrayTicTacToe)
-
-    coorinateX = int(input("Введите X-координату ячейки для хода: "))
-    coorinateY = int(input("Введите Y-координату ячейки для хода: "))
-    print(f"Введите какое значение Вы хотите поставить в ячейку {coorinateX},{coorinateY}: ")
-    value = int(input("CROSS = 1  |  CIRCLE = 0  : "))
-    if value == 1:
-        arrayTicTacToe[coorinateX-1][coorinateY-1] = Cross(coorinateX, coorinateY)
-    elif value == 0:
-        arrayTicTacToe[coorinateX - 1][coorinateY - 1] = Cell(coorinateX, coorinateY)
-    else:
-        print("Wrong input!")
-
-    print("\n\t\t========== НОВОЕ ПОЛЕ ==========")
-    showField(arrayTicTacToe)
