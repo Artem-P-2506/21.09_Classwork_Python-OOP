@@ -24,30 +24,22 @@ class Game():
         else:
             print("Wrong input!")
 
-    def __showField(array):
-        for row in array:
+    def __showField(self):
+        for row in self.__arrayTicTacToe:
             for column in row:
                 print("\t", str(column.getValue()), "\t", end="")
             print("\n")
 
     def startGame(self):
-        # from Tic_Tac_Toe.Game import *
-        #
-        # if __name__ == "__main__":
-        #
-        #     print("\n\t\t\t========== ПОЛЕ ==========")
-        #     showField(arrayTicTacToe)
-        #
-        #     coorinateX = int(input("Введите X-координату ячейки для хода: "))
-        #     coorinateY = int(input("Введите Y-координату ячейки для хода: "))
-        #     print(f"Введите какое значение Вы хотите поставить в ячейку {coorinateX},{coorinateY}: ")
-        #     value = int(input("CROSS = 1  |  CIRCLE = 0  : "))
-        #     if value == 1:
-        #         arrayTicTacToe[coorinateX - 1][coorinateY - 1] = Cross(coorinateX, coorinateY)
-        #     elif value == 0:
-        #         arrayTicTacToe[coorinateX - 1][coorinateY - 1] = Cell(coorinateX, coorinateY)
-        #     else:
-        #         print("Wrong input!")
-        #
-        #     print("\n\t\t========== НОВОЕ ПОЛЕ ==========")
-        #     showField(arrayTicTacToe)
+        rows = int(input("Введите количество рядов матрицы: "))
+        columns = int(input("Введите количество колонок матрицы: "))
+        self.__makeArray(rows, columns)
+        print("\n\t\t\t========== ПОЛЕ ==========")
+        self.__showField()
+
+        i = 0
+        while(i <= rows*columns):
+            self.__changeCell()
+            i += 1
+            print("\n\t\t========== НОВОЕ ПОЛЕ ==========")
+            self.__showField()
