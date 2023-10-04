@@ -220,67 +220,93 @@
 #
 #
 #==========================================================================================================================================================================================
-import threading
-import time
-
-def Timer(hours, minutes, secunds):
-    if (0 <= hours*60 + minutes*60 + secunds ):
-        isTime = True
-        while(isTime):
-            for secund in range(secunds):
-                print(f"Осталось: {hours}:{minutes}:{secunds-secund}")
-                time.sleep(1)
-            print(f"Осталось: {hours}:{minutes}:0")
-            time.sleep(1)
-            if minutes != 0:
-                secunds = 59
-                minutes -= 1
-                continue
-            elif hours != 0:
-                minutes = 59
-                secunds = 59
-                hours -= 1
-            else:
-                isTime = False
-                print("Время вышло!")
-    else:
-        print("Wrong input!")
-
-def Stopwatch(hours, minutes, secunds):
-    allTimeInSecunds = hours * 60 + minutes * 60 + secunds
-    if (0 <= allTimeInSecunds):
-        isTime = True
-        while (isTime):
-            hoursLeft = 0
-            minutesLeft = 0
-            secundLeft = 0
-            for i in range(allTimeInSecunds):
-                print(f"Прошло: {hoursLeft}:{minutesLeft}:{secundLeft}")
-                time.sleep(1)
-                secundLeft += 1
-
-                if secundLeft >= 60:
-                    if minutesLeft >= 60:
-                        hoursLeft += 1
-                    else:
-                        minutesLeft += 1
-                        secundLeft = 0
-                if i >= allTimeInSecunds - 1:
-                    isTime = False
-                    print("Время вышло!")
-    else:
-        print("Wrong input!")
-
-
+# import threading
+# import time
+#
+# def Timer(hours, minutes, secunds):
+#     if (0 <= hours*60 + minutes*60 + secunds ):
+#         isTime = True
+#         while(isTime):
+#             for secund in range(secunds):
+#                 print(f"Осталось: {hours}:{minutes}:{secunds-secund}")
+#                 time.sleep(1)
+#             print(f"Осталось: {hours}:{minutes}:0")
+#             time.sleep(1)
+#             if minutes != 0:
+#                 secunds = 59
+#                 minutes -= 1
+#                 continue
+#             elif hours != 0:
+#                 minutes = 59
+#                 secunds = 59
+#                 hours -= 1
+#             else:
+#                 isTime = False
+#                 print("Время вышло!")
+#     else:
+#         print("Wrong input!")
+#
+# def Stopwatch(hours, minutes, secunds):
+#     allTimeInSecunds = hours * 60 + minutes * 60 + secunds
+#     if (0 <= allTimeInSecunds):
+#         isTime = True
+#         while (isTime):
+#             hoursLeft = 0
+#             minutesLeft = 0
+#             secundLeft = 0
+#             for i in range(allTimeInSecunds):
+#                 print(f"Прошло: {hoursLeft}:{minutesLeft}:{secundLeft}")
+#                 time.sleep(1)
+#                 secundLeft += 1
+#
+#                 if secundLeft >= 60:
+#                     if minutesLeft >= 60:
+#                         hoursLeft += 1
+#                     else:
+#                         minutesLeft += 1
+#                         secundLeft = 0
+#                 if i >= allTimeInSecunds - 1:
+#                     isTime = False
+#                     print("Время вышло!")
+#     else:
+#         print("Wrong input!")
+#
+#
+#
+# if __name__ == "__main__":
+#     hours = int(input("Введите сколько часов ждать: "))
+#     minutes = int(input("Введите сколько минут ждать: "))
+#     secunds = int(input("Введите сколько секунд ждать: "))
+#     t1 = threading.Thread(target=Timer, args=(hours, minutes, secunds))
+#     t2 = threading.Thread(target=Stopwatch, args=(hours, minutes, secunds))
+#     choise = int(input("1/2"))
+#     if choise == 1:
+#         t1.start()
+#     elif choise == 2:
+#         t2.start()
+#
+#
+#==========================================================================================================================================================================================
+from Tic_Tac_Toe.Game import *
 
 if __name__ == "__main__":
-    hours = int(input("Введите сколько часов ждать: "))
-    minutes = int(input("Введите сколько минут ждать: "))
-    secunds = int(input("Введите сколько секунд ждать: "))
-    t1 = threading.Thread(target=Timer, args=(hours, minutes, secunds))
-    t2 = threading.Thread(target=Stopwatch, args=(hours, minutes, secunds))
-    choise = int(input("1/2"))
-    if choise == 1:
-        t1.start()
-    elif choise == 2:
-        t2.start()
+
+
+
+
+    print("\n\t\t\t========== ПОЛЕ ==========")
+    showField(arrayTicTacToe)
+
+    coorinateX = int(input("Введите X-координату ячейки для хода: "))
+    coorinateY = int(input("Введите Y-координату ячейки для хода: "))
+    print(f"Введите какое значение Вы хотите поставить в ячейку {coorinateX},{coorinateY}: ")
+    value = int(input("CROSS = 1  |  CIRCLE = 0  : "))
+    if value == 1:
+        arrayTicTacToe[coorinateX-1][coorinateY-1] = Cross(coorinateX, coorinateY)
+    elif value == 0:
+        arrayTicTacToe[coorinateX - 1][coorinateY - 1] = Cell(coorinateX, coorinateY)
+    else:
+        print("Wrong input!")
+
+    print("\n\t\t========== НОВОЕ ПОЛЕ ==========")
+    showField(arrayTicTacToe)
