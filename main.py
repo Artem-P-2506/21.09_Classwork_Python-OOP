@@ -287,31 +287,37 @@
 #
 #
 #==========================================================================================================================================================================================
-# from Tic_Tac_Toe.Game import *
+# import threading
+# import time
 #
+# class MyThread(threading.Thread):
+#     def __init__(self, args):
+#         super().__init__()
+#         self._args = args
+#
+#     def run(self):
+#         print(self._args)
+#
+#
+# #========================= MAIN =========================
 # if __name__ == "__main__":
-#     Game.startGame()
+#     array = []
+#     for i in range(10):
+#         array.append(MyThread(f"#{i + 1}"))
+#
+#     for item in array:
+#         item.run()
+#         time.sleep(4)
 #
 #
 #==========================================================================================================================================================================================
-import threading
-import time
+from Tic_Tac_Toe.Game import *
 
-class MyThread(threading.Thread):
-    def __init__(self, args):
-        super().__init__()
-        self._args = args
-
-    def run(self):
-        print(self._args)
-
-
-#========================= MAIN =========================
 if __name__ == "__main__":
-    array = []
-    for i in range(10):
-        array.append(MyThread(f"#{i + 1}"))
+    newGame = Game()
+    newGame.startGame()
 
-    for item in array:
-        item.run()
-        time.sleep(4)
+
+
+
+

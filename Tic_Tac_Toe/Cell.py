@@ -2,7 +2,7 @@ class Cell():
     def __init__(self, coorinateX, coorinateY):
         self._CoorinateX = coorinateX
         self._CoorinateY = coorinateY
-        self._value = "noValue"
+        self._value = "(noValue)"
 
     def getCoorinateX(self):
         return self._CoorinateX

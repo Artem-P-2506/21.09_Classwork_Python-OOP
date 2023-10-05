@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d45fd1b5-5250-41f4-8cd8-5144fdeb47b7" name="Changes" comment="Seventh commit">
+    <list default="true" id="d45fd1b5-5250-41f4-8cd8-5144fdeb47b7" name="Changes" comment="Eight commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tic_Tac_Toe/Cell.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tic_Tac_Toe/Cell.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tic_Tac_Toe/Circle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tic_Tac_Toe/Circle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tic_Tac_Toe/Cross.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tic_Tac_Toe/Cross.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tic_Tac_Toe/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tic_Tac_Toe/Game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -119,7 +122,8 @@
       <workItem from="1695297476538" duration="56000" />
       <workItem from="1695799833191" duration="9240000" />
       <workItem from="1695897709785" duration="4709000" />
-      <workItem from="1696404619706" duration="9480000" />
+      <workItem from="1696404619706" duration="10029000" />
+      <workItem from="1696502525521" duration="4748000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1695806185519</created>
@@ -177,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696411285748</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Eight commit">
+      <created>1696414893705</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1696414893705</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,9 +213,10 @@
     <MESSAGE value="Sixth commit" />
     <MESSAGE value="Sixth(full) commit" />
     <MESSAGE value="Seventh commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Seventh commit" />
+    <MESSAGE value="Eight commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eight commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1696414676917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1696507199251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
