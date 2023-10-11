@@ -311,13 +311,27 @@
 #
 #
 #==========================================================================================================================================================================================
-from Tic_Tac_Toe.Game import *
+# from Tic_Tac_Toe.Game import *
+#
+# if __name__ == "__main__":
+#     newGame = Game()
+#     newGame.startGame()
+#
+#
+#==========================================================================================================================================================================================
+# from Sneakers.RunningSneakers import*
+# from Sneakers.Scripts import*
+# import os
+#
+# if __name__ == "__main__":
+#     runningSneakers = RunningSneakers("Puma", "First mile", "Black", 43, True, "Sport")
+#     writeCharacteristicsToFile(runningSneakers)
+#     runningSneakersCopy = RunningSneakers(readCharacteristicsFromFile(os.path.join(os.getcwd() + "file.txt")))
+#
+#
+#==========================================================================================================================================================================================
+from Snake_Game.Game import *
 
 if __name__ == "__main__":
-    newGame = Game()
-    newGame.startGame()
-
-
-
-
-
+     snakeGame = Game()
+     snakeGame.startGame()
