@@ -1,27 +1,18 @@
 class Field:
     def __init__(self):
-        self._sizeX = 0
-        self._sizeY = 0
+        self._fieldSize = 0
         self._field = self.__makeField()
 
-    def getSizeX(self):
-        return self._sizeX
-
-    def getSizeY(self):
-        return self._sizeY
-
-    def setSnake(self, xCoordinate, yCoordinate, symbol):
-        self._field[xCoordinate][yCoordinate] = symbol
-
+    def getFieldSize(self):
+        return self._fieldSize
 
     def __makeField(self):
-        self._sizeY = int(input("Введите количесво рядков у поля: "))
-        self._sizeX = int(input("Введите количесво колонок у поля: "))
+        self._fieldSize = int(input("Введите размер поля (N*N): "))
         tempArray = []
-        for i in range(self._sizeY):
+        for i in range(self._fieldSize):
             tempArray.append([])
-            for j in range(self._sizeX):
-                tempArray[i].append(".")
+            for j in range(self._fieldSize):
+                tempArray[i].append("-")
         return tempArray
 
     def _showField(self):
@@ -32,3 +23,6 @@ class Field:
             print("\n")
     def getField(self):
         return self._field
+
+    def setSnakeOnField(self, snakeOBJ):
+        self._field[snakeOBJ.getCoordinateX()][snakeOBJ.getCoordinateY()] = snakeOBJ.getHeadSimbol()
