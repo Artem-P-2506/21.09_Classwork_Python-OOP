@@ -13,8 +13,7 @@ class Game:
 
     def startGame(self):
         field = self._field.getField()
-        self._snake.setCoordinateX(random.randint(0, len(field) - 1))
-        self._snake.setCoordinateY(random.randint(0, len(field[0]) - 1))
+        self._snake.addNewHead(random.randint(0, len(field) - 1), random.randint(0, len(field[0]) - 1))
         self._field.setSnakeOnField(self._snake)
 
         isSnakeAlive = True

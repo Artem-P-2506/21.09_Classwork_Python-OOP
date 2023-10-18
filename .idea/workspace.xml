@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d45fd1b5-5250-41f4-8cd8-5144fdeb47b7" name="Changes" comment="Tenth commit">
+    <list default="true" id="d45fd1b5-5250-41f4-8cd8-5144fdeb47b7" name="Changes" comment="Eleventh commit">
+      <change afterPath="$PROJECT_DIR$/Overloading/Coordinates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Overloading/Figure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Overloading/Line.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Overloading/Square.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Snake_Game/Point2D.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Snake_Game/Field.py" beforeDir="false" afterPath="$PROJECT_DIR$/Snake_Game/Field.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Snake_Game/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Snake_Game/Game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Snake_Game/Snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/Snake_Game/Snake.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +72,11 @@
       <recent name="C:\Users\student\PycharmProjects\pythonProject" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\student\PycharmProjects\pythonProject\Debug" />
       <recent name="C:\Users\student\PycharmProjects\pythonProject\Banknote_Coin_Bill" />
       <recent name="C:\Users\student\PycharmProjects\pythonProject\Atom" />
       <recent name="C:\Users\student\PycharmProjects\pythonProject\Point_Line_Square\Banknote_Coin_Bill" />
       <recent name="C:\Users\student\PycharmProjects\pythonProject\Point_Line_Square\Atom" />
-      <recent name="C:\Users\student\PycharmProjects\pythonProject\Point_Line_Square\Atom_..." />
     </key>
   </component>
   <component name="RunManager">
@@ -123,7 +128,9 @@
       <workItem from="1696404619706" duration="10029000" />
       <workItem from="1696502525521" duration="4827000" />
       <workItem from="1697010930089" duration="8263000" />
-      <workItem from="1697107714548" duration="4129000" />
+      <workItem from="1697107714548" duration="4255000" />
+      <workItem from="1697614002697" duration="7048000" />
+      <workItem from="1697621501329" duration="3193000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1695806185519</created>
@@ -202,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697020023538</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Eleventh commit">
+      <created>1697111897962</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1697111897962</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,9 +244,10 @@
     <MESSAGE value="Eight commit" />
     <MESSAGE value="Ninth commit" />
     <MESSAGE value="Tenth commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tenth commit" />
+    <MESSAGE value="Eleventh commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eleventh commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1697111846673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1697624713773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

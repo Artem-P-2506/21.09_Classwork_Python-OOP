@@ -330,8 +330,53 @@
 #
 #
 #==========================================================================================================================================================================================
-from Snake_Game.Game import *
+# from Snake_Game.Game import *
+#
+# if __name__ == "__main__":
+#      snakeGame = Game()
+#      snakeGame.startGame()
+#
+#
+#==========================================================================================================================================================================================
+# from Overloading.Line import *
+# from Overloading.Square import *
+# from Overloading.Coordinates import *
+#
+# def compare(firstOBJ, secondOBJ):
+#      return str(firstOBJ) == str(secondOBJ)
+#
+# if __name__ == "__main__":
+#      squareCoordinates = Coordinates(1, 4)
+#      lineCoordinates = Coordinates(-3, 8)
+#
+#      square = Square("red" ,"plastic" , squareCoordinates, 5)
+#      line = Line("black" ,"wood" , lineCoordinates, 10)
+#
+#      print(f"\n{str(square)}")
+#      print(f"\n{str(line)}")
+#      print(f"\nCompare:\t{compare(square, line)}")
+#
+#
+#==========================================================================================================================================================================================
+import psutil
+import time
 
 if __name__ == "__main__":
-     snakeGame = Game()
-     snakeGame.startGame()
+     for item in psutil.process_iter():
+          print(item)
+     print("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=")
+
+     programNames = {"chrome.exe", "safari.exe", "explorer.exe"}
+     workedMoreThenHour = []
+     for program in programNames:
+          flag = False
+          for item in psutil.process_iter():
+               if item.name() == program:
+                    flag = True
+                    if time.time() - item.create_time() >= 3600 and item.name() not in workedMoreThenHour:
+                         workedMoreThenHour.append(item.name())
+          print(f"Is '{program}' open:\t{flag}")
+
+     print("\nWorked more then hour:")
+     for name in workedMoreThenHour:
+          print(name)
