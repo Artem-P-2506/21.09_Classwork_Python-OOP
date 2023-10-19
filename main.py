@@ -358,25 +358,30 @@
 #
 #
 #==========================================================================================================================================================================================
-import psutil
-import time
-
+# import psutil
+# import time
+#
+# if __name__ == "__main__":
+#      for item in psutil.process_iter():
+#           print(item)
+#      print("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=")
+#
+#      programNames = {"chrome.exe", "safari.exe", "explorer.exe"}
+#      workedMoreThenHour = []
+#      for program in programNames:
+#           flag = False
+#           for item in psutil.process_iter():
+#                if item.name() == program:
+#                     flag = True
+#                     if time.time() - item.create_time() >= 3600 and item.name() not in workedMoreThenHour:
+#                          workedMoreThenHour.append(item.name())
+#           print(f"Is '{program}' open:\t{flag}")
+#
+#      print("\nWorked more then hour:")
+#      for name in workedMoreThenHour:
+#           print(name)
+#
+#
+#==========================================================================================================================================================================================
 if __name__ == "__main__":
-     for item in psutil.process_iter():
-          print(item)
-     print("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=")
-
-     programNames = {"chrome.exe", "safari.exe", "explorer.exe"}
-     workedMoreThenHour = []
-     for program in programNames:
-          flag = False
-          for item in psutil.process_iter():
-               if item.name() == program:
-                    flag = True
-                    if time.time() - item.create_time() >= 3600 and item.name() not in workedMoreThenHour:
-                         workedMoreThenHour.append(item.name())
-          print(f"Is '{program}' open:\t{flag}")
-
-     print("\nWorked more then hour:")
-     for name in workedMoreThenHour:
-          print(name)
+    print(":)")
