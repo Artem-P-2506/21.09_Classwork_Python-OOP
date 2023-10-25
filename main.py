@@ -383,5 +383,64 @@
 #
 #
 #==========================================================================================================================================================================================
+# import json
+# from Materials_Guns.Materials.Wood import *
+# from Materials_Guns.Materials.Metal import *
+# from Materials_Guns.Materials.Stone import *
+# from Materials_Guns.Materials.Leather import *
+# # from Point_Line_Square.Point2D import Point2D
+#
+# if __name__ == "__main__":
+#     materials = [Wood(), Metal(), Stone(), Leather()]
+#     materialsDICT = []
+#     for item in materials:
+#         materialsDICT.append(item.__dict__)
+#
+#     with open("materials.json", "w") as file:
+#         pointJSON = json.dumps(str(materialsDICT))
+#         file.write(pointJSON)
+#
+#     with open("materials.json", "r") as file:
+#         print(str(json.load(file)))
+#
+#
+#     # points = [Point2D(3, 5), Point2D(7, 0), Point2D(-4, 2), Point2D(9, 1), Point2D(-5, -5)]
+#     # pointsDICT = []
+#     # for item in points:
+#     #     pointsDICT.append(str(item))
+#     #
+#     # with open("point2D.json", "w") as file:
+#     #     pointJSON = json.dumps(str(pointsDICT))
+#     #     file.write(pointJSON)
+#     #
+#     # with open("point2D.json", "r") as file:
+#     #     print(str(file.read()))
+#
+#
+#==========================================================================================================================================================================================
+import psutil
+import json
+import shutil
+import os
+
 if __name__ == "__main__":
-    print(":)")
+    processesDICT = []
+    for item in psutil.process_iter():
+        print(item)
+        streamName = f"Name: {item.name()}"
+        if streamName in processesDICT:
+            continue
+        streamPID = f"PID: {item.pid}"
+        processesDICT.append(streamName)
+        processesDICT.append(streamPID)
+
+    with open("processes.json", 'w') as file:
+        processesJSON = json.dumps(str(processesDICT))
+        file.write(processesJSON)
+
+    pathToFile = os.path.join(os.getcwd(), "processes.json")
+    desctopPath = os.path.join(os.path.expanduser('~'), "Desktop")
+    shutil.copy(pathToFile, os.path.join(desctopPath, "processes.json"))
+
+
+

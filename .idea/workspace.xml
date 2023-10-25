@@ -4,26 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d45fd1b5-5250-41f4-8cd8-5144fdeb47b7" name="Changes" comment="Twelfth commit">
-      <change afterPath="$PROJECT_DIR$/Materials_Guns/Materials/Leather.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Materials_Guns/Materials/Material.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Materials_Guns/Materials/Metal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Materials_Guns/Materials/Plastic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Materials_Guns/Materials/Stone.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Materials_Guns/Materials/Thread.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Materials_Guns/Materials/Wood.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Materials_Guns/Parts/Blade.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Materials_Guns/Parts/Bowstring.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Materials_Guns/Parts/Garda.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Materials_Guns/Parts/Handle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Materials_Guns/Weapons/Throwing (medium radius)/Bow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Materials_Guns/Weapons/Throwing/Axe.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Materials_Guns/Weapons/Throwing/Knive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Materials_Guns/Weapons/Throwing/Spear.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Materials_Guns/Weapons/Weapon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Materials_Guns/Weapons/Сutting/ Two-handed/Claymore.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Materials_Guns/Weapons/Сutting/One-handed/Sword.py" afterDir="false" />
+    <list default="true" id="d45fd1b5-5250-41f4-8cd8-5144fdeb47b7" name="Changes" comment="Thirteen commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Materials_Guns/Materials/Leather.py" beforeDir="false" afterPath="$PROJECT_DIR$/Materials_Guns/Materials/Leather.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Materials_Guns/Materials/Material.py" beforeDir="false" afterPath="$PROJECT_DIR$/Materials_Guns/Materials/Material.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Materials_Guns/Materials/Metal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Materials_Guns/Materials/Metal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Materials_Guns/Materials/Plastic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Materials_Guns/Materials/Plastic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Materials_Guns/Materials/Stone.py" beforeDir="false" afterPath="$PROJECT_DIR$/Materials_Guns/Materials/Stone.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Materials_Guns/Materials/Thread.py" beforeDir="false" afterPath="$PROJECT_DIR$/Materials_Guns/Materials/Thread.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Materials_Guns/Materials/Wood.py" beforeDir="false" afterPath="$PROJECT_DIR$/Materials_Guns/Materials/Wood.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Point_Line_Square/Point2D.py" beforeDir="false" afterPath="$PROJECT_DIR$/Point_Line_Square/Point2D.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +59,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/student/PycharmProjects/pythonProject&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/student/PycharmProjects/pythonProject/ Serialization_and_deserialization&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -80,14 +70,15 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\student\PycharmProjects\pythonProject\ Serialization_and_deserialization" />
       <recent name="C:\Users\student\PycharmProjects\pythonProject" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\student\PycharmProjects\pythonProject\ Serialization_and_deserialization" />
       <recent name="C:\Users\student\PycharmProjects\pythonProject\Materials_Guns\Weapons\Сutting\One-handed" />
       <recent name="C:\Users\student\PycharmProjects\pythonProject\Materials_Guns\Guns\Throwing (medium radius)" />
       <recent name="C:\Users\student\PycharmProjects\pythonProject\Materials_Guns\Guns" />
       <recent name="C:\Users\student\PycharmProjects\pythonProject\Materials_Guns" />
-      <recent name="C:\Users\student\PycharmProjects\pythonProject\Debug" />
     </key>
   </component>
   <component name="RunManager">
@@ -142,7 +133,10 @@
       <workItem from="1697107714548" duration="4255000" />
       <workItem from="1697614002697" duration="7048000" />
       <workItem from="1697621501329" duration="3342000" />
-      <workItem from="1697711904794" duration="4875000" />
+      <workItem from="1697711904794" duration="4962000" />
+      <workItem from="1698218687203" duration="1451000" />
+      <workItem from="1698220695411" duration="1249000" />
+      <workItem from="1698221968968" duration="6553000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1695806185519</created>
@@ -235,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697624863747</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Thirteen commit">
+      <created>1697716872282</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1697716872282</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,9 +266,10 @@
     <MESSAGE value="Tenth commit" />
     <MESSAGE value="Eleventh commit" />
     <MESSAGE value="Twelfth commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Twelfth commit" />
+    <MESSAGE value="Thirteen commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thirteen commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1697624755722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1698229288283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

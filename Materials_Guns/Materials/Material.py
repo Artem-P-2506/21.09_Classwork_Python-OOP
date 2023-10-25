@@ -1,8 +1,8 @@
 class Material:
-    def __init__(self):
-        self._materialType = "NONE"
-        self._color = "NONE"
-        self._weight = "NONE"
+    def __init__(self, materialType, color, weight):
+        self._materialType = materialType
+        self._color = color
+        self._weight = weight
 
     def getMaterialType(self):
         return self._materialType
