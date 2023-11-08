@@ -1,10 +1,17 @@
 class Atom:
-    def __init__(self, numberOfProtons, numberOfNeutrons, numberOfElectrons, weight, valency):
+    def __init__(self, sign, numberOfProtons, numberOfNeutrons, numberOfElectrons, weight, valency):
+        self._sign = sign
         self._numberOfProtons = numberOfProtons
         self._numberOfNeutrons = numberOfNeutrons
         self._numberOfElectrons = numberOfElectrons
         self._weight = weight
         self._valency = valency
+
+    def setSign(self, newSign):
+        self._sign = newSign
+
+    def getSign(self):
+        return self._sign
 
     def setNumberOfProtons(self, newNumberOfProtons):
         self._numberOfProtons = newNumberOfProtons
@@ -36,7 +43,10 @@ class Atom:
     def getValency(self):
         return self._valency
 
-    def print(self):
-        print("Число протонов: " + str(self._numberOfProtons) + "\nЧисло нейтронов: " + str(self._numberOfNeutrons) +
-              "\nЧисло електронов: " + str(self._numberOfElectrons) + "\nВес: " + str(self._weight) + "g" +
-              "\nВалентность: " + str(self._valency))
+    def __str__ (self):
+        return f"Символ:\t'{self._sign}'" \
+               f"\nЧисло протонов:\t{str(self._numberOfProtons)}" \
+               f"\nЧисло нейтронов:\t{str(self._numberOfNeutrons)}" \
+               f"\nЧисло електронов:\t{str(self._numberOfElectrons)}" \
+               f"\nВес:\t{str(self._weight)}g" \
+               f"\nВалентность:\t{str(self._valency)}"

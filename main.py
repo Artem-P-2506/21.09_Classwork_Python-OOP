@@ -418,29 +418,80 @@
 #
 #
 #==========================================================================================================================================================================================
-import psutil
-import json
-import shutil
-import os
+# import psutil
+# import json
+# import shutil
+# import os
+#
+# if __name__ == "__main__":
+#     processesDICT = []
+#     for item in psutil.process_iter():
+#         print(item)
+#         streamName = f"Name: {item.name()}"
+#         if streamName in processesDICT:
+#             continue
+#         streamPID = f"PID: {item.pid}"
+#         processesDICT.append(streamName)
+#         processesDICT.append(streamPID)
+#
+#     with open("processes.json", 'w') as file:
+#         processesJSON = json.dumps(str(processesDICT))
+#         file.write(processesJSON)
+#
+#     pathToFile = os.path.join(os.getcwd(), "processes.json")
+#     desctopPath = os.path.join(os.path.expanduser('~'), "Desktop")
+#     shutil.copy(pathToFile, os.path.join(desctopPath, "processes.json"))
+#
+#
+#==========================================================================================================================================================================================
+# from Molecules.Atom import *
+# from Molecules.Molecule import *
+#
+# if __name__ == "__main__":
+#     atom1 = Atom("H", 10, 10, 10, 30, 8)
+#     atom2 = Atom("O", 20, 20, 20, 60, 16)
+#
+#     molecule1 = Molecule("H2O", atom1, atom2, atom1)
+#     molecule1.print()
+#     print("\n-=-=-=-=-=-=-=-=-")
+#     print(molecule1.atoms[1])
+#
+#
+#==========================================================================================================================================================================================
+from tkinter import *
+from tkinter import ttk
+
+def clickFunc():
+    global iterator
+    iterator += 1
+    button1["text"] = f"Нажатий: {iterator}"
 
 if __name__ == "__main__":
-    processesDICT = []
-    for item in psutil.process_iter():
-        print(item)
-        streamName = f"Name: {item.name()}"
-        if streamName in processesDICT:
-            continue
-        streamPID = f"PID: {item.pid}"
-        processesDICT.append(streamName)
-        processesDICT.append(streamPID)
+    window = Tk()
+    window.geometry("700x500")
+    window.resizable(True, True)
+    window.title("Hello window!")
+    window.configure(background="#00BFFF")
+    button1 = ttk.Button(text=f"Нажатий: 0", command=clickFunc)
+    button1.pack()
+    iterator = 0
 
-    with open("processes.json", 'w') as file:
-        processesJSON = json.dumps(str(processesDICT))
-        file.write(processesJSON)
+    window.mainloop()
 
-    pathToFile = os.path.join(os.getcwd(), "processes.json")
-    desctopPath = os.path.join(os.path.expanduser('~'), "Desktop")
-    shutil.copy(pathToFile, os.path.join(desctopPath, "processes.json"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
