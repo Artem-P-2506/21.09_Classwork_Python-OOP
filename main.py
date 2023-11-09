@@ -461,37 +461,60 @@
 from tkinter import *
 from tkinter import ttk
 
-def clickFunc():
-    global iterator
-    iterator += 1
-    button1["text"] = f"Нажатий: {iterator}"
+def clickRed():
+    global window
+    # window["text"] = "+10      RED"
+    global colorRed
+    if colorRed + 10 <= 255:
+        colorRed += 10
+    else:
+        print("MAX VALUE")
+    window["background"] = f"#{colorRed:02x}{colorGreen:02x}{colorBlue:02x}"
+
+def clickGreen():
+    global window
+    # window["text"] = "+10 GREEN"
+    global colorGreen
+    if colorGreen + 10 <= 255:
+        colorGreen += 10
+    else:
+        print("MAX VALUE")
+    window["background"] = f"#{colorRed:02x}{colorGreen:02x}{colorBlue:02x}"
+
+def clickBlue():
+    global window
+    # window["text"] = "+10    BLUE"
+    global colorBlue
+    if colorBlue + 10 <= 255:
+        colorBlue += 10
+    else:
+        print("MAX VALUE")
+    window["background"] = f"#{colorRed:02x}{colorGreen:02x}{colorBlue:02x}"
+
+
 
 if __name__ == "__main__":
     window = Tk()
     window.geometry("700x500")
     window.resizable(True, True)
     window.title("Hello window!")
-    window.configure(background="#00BFFF")
-    button1 = ttk.Button(text=f"Нажатий: 0", command=clickFunc)
-    button1.pack()
-    iterator = 0
+    colorRed = 0
+    colorGreen = 0
+    colorBlue = 0
+    window.configure(background=f"#{colorRed:02x}{colorGreen:02x}{colorBlue:02x}")
+
+    button1 = ttk.Button(text="RED", command=clickRed)
+    button1.place(x=150, y=200)
+
+    button2 = ttk.Button(text="GREEN", command=clickGreen)
+    button2.place(x=300, y=200)
+
+    button3 = ttk.Button(text="BLUE", command=clickBlue)
+    button3.place(x=450, y=200)
+
+    # label1 = ttk.Label(text="--COLOR--")
+    # label1.place(x=160, y=10)
+    # label1.configure(background=f"#{colorRed:02x}{colorGreen:02x}{colorBlue:02x}")
+    # label1.configure(background="white")
 
     window.mainloop()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

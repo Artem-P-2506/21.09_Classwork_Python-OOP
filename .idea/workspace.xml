@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d45fd1b5-5250-41f4-8cd8-5144fdeb47b7" name="Changes" comment="Fourteenth commit">
-      <change afterPath="$PROJECT_DIR$/Molecules/Atom.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Molecules/Molecule.py" afterDir="false" />
+    <list default="true" id="d45fd1b5-5250-41f4-8cd8-5144fdeb47b7" name="Changes" comment="Fifteenth commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atom/Atom.py" beforeDir="false" afterPath="$PROJECT_DIR$/Atom/Atom.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,11 +66,11 @@
       <recent name="C:\Users\student\PycharmProjects\pythonProject" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\student\PycharmProjects\pythonProject\TKINTER" />
       <recent name="C:\Users\student\PycharmProjects\pythonProject\ Serialization_and_deserialization" />
       <recent name="C:\Users\student\PycharmProjects\pythonProject\Materials_Guns\Weapons\Сutting\One-handed" />
       <recent name="C:\Users\student\PycharmProjects\pythonProject\Materials_Guns\Guns\Throwing (medium radius)" />
       <recent name="C:\Users\student\PycharmProjects\pythonProject\Materials_Guns\Guns" />
-      <recent name="C:\Users\student\PycharmProjects\pythonProject\Materials_Guns" />
     </key>
   </component>
   <component name="RunManager">
@@ -136,7 +133,8 @@
       <workItem from="1698833776778" duration="149000" />
       <workItem from="1698834395169" duration="730000" />
       <workItem from="1699431749384" duration="4788000" />
-      <workItem from="1699438350681" duration="3344000" />
+      <workItem from="1699438350681" duration="3411000" />
+      <workItem from="1699530076744" duration="3990000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1695806185519</created>
@@ -243,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698229391480</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Fifteenth commit">
+      <created>1699443141302</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1699443141302</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,9 +280,11 @@
     <MESSAGE value="Twelfth commit" />
     <MESSAGE value="Thirteen commit" />
     <MESSAGE value="Fourteenth commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fourteenth commit" />
+    <MESSAGE value="Fifteenth commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fifteenth commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1699442773620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$TKINTER.coverage" NAME="TKINTER Coverage Results" MODIFIED="1699534095270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TKINTER" />
+    <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1699533965601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TKINTER" />
   </component>
 </project>
