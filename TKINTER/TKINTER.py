@@ -28,7 +28,9 @@ def clickBlue():
         print("MAX VALUE OF BLUE")
     window["background"] = f"#{colorRed:02x}{colorGreen:02x}{colorBlue:02x}"
 
-# -=-=-=-=-=-=-=-=-=--=-=-=- MAIN -=-=-=-=-=-=-=-=-=--=-=-=-
+
+
+# -=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=- MAIN -=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-
 if __name__ == "__main__":
     window = Tk()
     window.geometry("700x500")
