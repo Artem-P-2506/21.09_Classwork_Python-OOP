@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d45fd1b5-5250-41f4-8cd8-5144fdeb47b7" name="Changes" comment="Seventeenth commit">
-      <change afterPath="$PROJECT_DIR$/TKINTER/TKINTER4.py" afterDir="false" />
+    <list default="true" id="d45fd1b5-5250-41f4-8cd8-5144fdeb47b7" name="Changes" comment="Eleventeenth commit">
+      <change afterPath="$PROJECT_DIR$/MVC/Controller/PointController.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC/Model/Point2D.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC/View/ConsoleView.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC/View/TkView.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TKINTER/TKINTER.py" beforeDir="false" afterPath="$PROJECT_DIR$/TKINTER/TKINTER.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TKINTER/TKINTER2.py" beforeDir="false" afterPath="$PROJECT_DIR$/TKINTER/TKINTER2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TKINTER/TKINTER3.py" beforeDir="false" afterPath="$PROJECT_DIR$/TKINTER/TKINTER3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,11 +71,11 @@
       <recent name="C:\Users\student\PycharmProjects\pythonProject" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\student\PycharmProjects\pythonProject\MVC" />
+      <recent name="C:\Users\student\PycharmProjects\pythonProject\MVC\View" />
+      <recent name="C:\Users\student\PycharmProjects\pythonProject\MVC\Model" />
+      <recent name="C:\Users\student\PycharmProjects\pythonProject\MVC\Controller" />
       <recent name="C:\Users\student\PycharmProjects\pythonProject\TKINTER" />
-      <recent name="C:\Users\student\PycharmProjects\pythonProject\ Serialization_and_deserialization" />
-      <recent name="C:\Users\student\PycharmProjects\pythonProject\Materials_Guns\Weapons\Сutting\One-handed" />
-      <recent name="C:\Users\student\PycharmProjects\pythonProject\Materials_Guns\Guns\Throwing (medium radius)" />
-      <recent name="C:\Users\student\PycharmProjects\pythonProject\Materials_Guns\Guns" />
     </key>
   </component>
   <component name="RunManager">
@@ -141,7 +142,11 @@
       <workItem from="1699530076744" duration="4128000" />
       <workItem from="1699534972418" duration="81000" />
       <workItem from="1700036610494" duration="10370000" />
-      <workItem from="1700135097675" duration="3112000" />
+      <workItem from="1700135097675" duration="3199000" />
+      <workItem from="1700641485987" duration="2883000" />
+      <workItem from="1700646310885" duration="2697000" />
+      <workItem from="1700649479403" duration="306000" />
+      <workItem from="1700649801439" duration="2640000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1695806185519</created>
@@ -276,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700047833842</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Eleventeenth commit">
+      <created>1700139427549</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1700139427549</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,13 +323,16 @@
     <MESSAGE value="Fifteenth commit" />
     <MESSAGE value="Sixteenth commit" />
     <MESSAGE value="Seventeenth commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Seventeenth commit" />
+    <MESSAGE value="Eleventeenth commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eleventeenth commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pythonProject$TKINTER.coverage" NAME="TKINTER Coverage Results" MODIFIED="1700037246076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TKINTER" />
-    <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1700135145722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1700652449209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MVC" />
+    <SUITE FILE_PATH="coverage/pythonProject$TkView.coverage" NAME="TkView Coverage Results" MODIFIED="1700652445821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MVC/View" />
     <SUITE FILE_PATH="coverage/pythonProject$TKINTER3.coverage" NAME="TKINTER3 Coverage Results" MODIFIED="1700135151737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TKINTER" />
+    <SUITE FILE_PATH="coverage/pythonProject$PointController.coverage" NAME="PointController Coverage Results" MODIFIED="1700649178435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MVC/Controller" />
     <SUITE FILE_PATH="coverage/pythonProject$TKINTER2.coverage" NAME="TKINTER2 Coverage Results" MODIFIED="1700041778479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TKINTER" />
-    <SUITE FILE_PATH="coverage/pythonProject$TKINTER4.coverage" NAME="TKINTER4 Coverage Results" MODIFIED="1700139352522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TKINTER" />
+    <SUITE FILE_PATH="coverage/pythonProject$TKINTER4.coverage" NAME="TKINTER4 Coverage Results" MODIFIED="1700642640265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TKINTER" />
   </component>
 </project>
