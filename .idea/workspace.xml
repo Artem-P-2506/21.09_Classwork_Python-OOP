@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d45fd1b5-5250-41f4-8cd8-5144fdeb47b7" name="Changes" comment="Nineteenth commit">
+    <list default="true" id="d45fd1b5-5250-41f4-8cd8-5144fdeb47b7" name="Changes" comment="twentieth commit">
+      <change afterPath="$PROJECT_DIR$/MVC_Calculator/Controller/CalculatorController.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC_Calculator/Model/Calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC_Calculator/View/TkView.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC_Calculator/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +145,8 @@
       <workItem from="1700646310885" duration="2697000" />
       <workItem from="1700649479403" duration="306000" />
       <workItem from="1700649801439" duration="2677000" />
-      <workItem from="1700739183395" duration="3709000" />
+      <workItem from="1700739183395" duration="3882000" />
+      <workItem from="1701344611405" duration="4113000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1695806185519</created>
@@ -291,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700652492464</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="twentieth commit">
+      <created>1700744182077</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1700744182077</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,15 +339,17 @@
     <MESSAGE value="Seventeenth commit" />
     <MESSAGE value="Eleventeenth commit" />
     <MESSAGE value="Nineteenth commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nineteenth commit" />
+    <MESSAGE value="twentieth commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="twentieth commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pythonProject$TKINTER.coverage" NAME="TKINTER Coverage Results" MODIFIED="1700037246076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TKINTER" />
-    <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1700744099239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1701348955644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MVC_Calculator" />
     <SUITE FILE_PATH="coverage/pythonProject$TkView.coverage" NAME="TkView Coverage Results" MODIFIED="1700652445821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MVC/View" />
     <SUITE FILE_PATH="coverage/pythonProject$TKINTER3.coverage" NAME="TKINTER3 Coverage Results" MODIFIED="1700135151737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TKINTER" />
     <SUITE FILE_PATH="coverage/pythonProject$PointController.coverage" NAME="PointController Coverage Results" MODIFIED="1700649178435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MVC/Controller" />
     <SUITE FILE_PATH="coverage/pythonProject$TKINTER2.coverage" NAME="TKINTER2 Coverage Results" MODIFIED="1700041778479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TKINTER" />
     <SUITE FILE_PATH="coverage/pythonProject$TKINTER4.coverage" NAME="TKINTER4 Coverage Results" MODIFIED="1700642640265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TKINTER" />
+    <SUITE FILE_PATH="coverage/pythonProject$Calculator.coverage" NAME="Calculator Coverage Results" MODIFIED="1701348492711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MVC_Calculator/Model" />
   </component>
 </project>
