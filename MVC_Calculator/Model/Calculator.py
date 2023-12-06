@@ -1,4 +1,5 @@
-ACTIONS = ("ADD", "SUBTRACT", "MULTIPLY", "DIVIDE")
+# ACTIONS = ("ADD", "SUBTRACT", "MULTIPLY", "DIVIDE")
+ACTIONS = ("+", "-", "*", "/")
 
 class Calculator:
     def __init__(self, firstNumber, secondNumber, action):
