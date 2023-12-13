@@ -521,28 +521,54 @@
 #
 #
 #======================================================================================================================================================================
-import winreg
-import winreg as reg
+# import winreg
+# import winreg as reg
+#
+# location = reg.HKEY_CURRENT_USER
+#
+# software = reg.OpenKeyEx(location, "Software\\")
+#
+# # try:
+# #     i = 0
+# #     while(True):
+# #         print(winreg.EnumKey(software, i))
+# #         i += 1
+# # except:
+# #     print()
+#
+# count = 0
+# while(True):
+#     try:
+#         winreg.EnumKey(software, count)
+#         count += 1
+#     except OSError:
+#         break
+#
+# for i in range(count):
+#     print(winreg.EnumKey(software, i))
+#
+#
+#======================================================================================================================================================================
 
-location = reg.HKEY_CURRENT_USER
 
-software = reg.OpenKeyEx(location, "Software\\")
 
-# try:
-#     i = 0
-#     while(True):
-#         print(winreg.EnumKey(software, i))
-#         i += 1
-# except:
-#     print()
 
-count = 0
-while(True):
-    try:
-        winreg.EnumKey(software, count)
-        count += 1
-    except OSError:
-        break
 
-for i in range(count):
-    print(winreg.EnumKey(software, i))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d45fd1b5-5250-41f4-8cd8-5144fdeb47b7" name="Changes" comment="twentie-second commit">
-      <change afterPath="$PROJECT_DIR$/FIFO/Element.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FIFO/Queue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FIFO/main.py" afterDir="false" />
+    <list default="true" id="d45fd1b5-5250-41f4-8cd8-5144fdeb47b7" name="Changes" comment="twenty-third commit">
+      <change afterPath="$PROJECT_DIR$/LIFO/Element.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LIFO/Stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LIFO/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC_RegistrationForm/View/TkAdministrationForm.py" beforeDir="false" afterPath="$PROJECT_DIR$/MVC_RegistrationForm/View/TkAdministrationView.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC_RegistrationForm/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/MVC_RegistrationForm/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,24 +49,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/student/PycharmProjects/pythonProject/ Serialization_and_deserialization&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/student/PycharmProjects/pythonProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\student\PycharmProjects\pythonProject\ Serialization_and_deserialization" />
       <recent name="C:\Users\student\PycharmProjects\pythonProject" />
+      <recent name="C:\Users\student\PycharmProjects\pythonProject\ Serialization_and_deserialization" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\student\PycharmProjects\pythonProject\MVC" />
@@ -150,7 +149,7 @@
       <workItem from="1701344611405" duration="4147000" />
       <workItem from="1701850818650" duration="13464000" />
       <workItem from="1702456387580" duration="2257000" />
-      <workItem from="1702459032927" duration="1689000" />
+      <workItem from="1702459032927" duration="6567000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1695806185519</created>
@@ -320,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701865124217</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="twenty-third commit">
+      <created>1702460825204</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1702460825204</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,11 +366,12 @@
     <MESSAGE value="twentieth commit" />
     <MESSAGE value="twentie-first commit" />
     <MESSAGE value="twentie-second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="twentie-second commit" />
+    <MESSAGE value="twenty-third commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="twenty-third commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pythonProject$TKINTER.coverage" NAME="TKINTER Coverage Results" MODIFIED="1700037246076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TKINTER" />
-    <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1702460463829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FIFO" />
+    <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1702466379233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LIFO" />
     <SUITE FILE_PATH="coverage/pythonProject$TkView.coverage" NAME="TkView Coverage Results" MODIFIED="1702456429453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MVC_RegistrationForm/View" />
     <SUITE FILE_PATH="coverage/pythonProject$TKINTER3.coverage" NAME="TKINTER3 Coverage Results" MODIFIED="1701861560915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TKINTER" />
     <SUITE FILE_PATH="coverage/pythonProject$PointController.coverage" NAME="PointController Coverage Results" MODIFIED="1700649178435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MVC/Controller" />
