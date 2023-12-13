@@ -1,5 +1,5 @@
 from MVC_RegistrationForm.View.TkView import *
-from MVC_RegistrationForm.View.TkAdministrationForm import *
+from MVC_RegistrationForm.View.TkAdministrationView import *
 from tkinter import *
 
 def btnRegistrationFormClick():
@@ -22,14 +22,15 @@ def btnAdministratorWindowClick():
 #         print("НЕВЕРНЫЙ ВЫБОР")
 
 root = Tk()
-root.geometry("200x60")
+# root.geometry("200x60")
+root.geometry("192x120")
 root.title("CHOISE")
 root.configure(background="black")
 
-registrationFormButton = Button(text="ФОРМА РЕГИСТРАЦИИ", background="blue", foreground="white", width=25, command=btnRegistrationFormClick)
+registrationFormButton = Button(text="ФОРМА РЕГИСТРАЦИИ", background="blue", foreground="white", width=25, height=3, command=btnRegistrationFormClick)
 registrationFormButton.pack()
 
-administratorFormButton = Button(text="ОКНО АДМИНИСТРАТОРА", background="blue", foreground="white", width=25, command=btnAdministratorWindowClick)
+administratorFormButton = Button(text="ОКНО АДМИНИСТРАТОРА", background="blue", foreground="white", width=25, height=3, command=btnAdministratorWindowClick)
 administratorFormButton.pack()
 
 root.mainloop()
