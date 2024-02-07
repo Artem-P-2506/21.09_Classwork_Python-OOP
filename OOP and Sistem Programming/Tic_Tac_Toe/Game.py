@@ -1,4 +1,3 @@
-import os
 from Tic_Tac_Toe.Cross import *
 from Tic_Tac_Toe.Circle import *
 
