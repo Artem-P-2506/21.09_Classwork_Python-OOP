@@ -5,77 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d45fd1b5-5250-41f4-8cd8-5144fdeb47b7" name="Changes" comment="twenty-fourth commit">
-      <change afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Materials_Guns/Weapons/Сutting/ Two-handed/Claymore.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Materials_Guns/Weapons/Сutting/One-handed/Sword.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client-Server Programming/Second/client1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client-Server Programming/Second/client2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client-Server Programming/Second/client3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client-Server Programming/Second/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atom/Atom.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Atom/Atom.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banknote_Coin_Bill/Banknote.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Banknote_Coin_Bill/Banknote.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banknote_Coin_Bill/Bill.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Banknote_Coin_Bill/Bill.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banknote_Coin_Bill/Coin.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Banknote_Coin_Bill/Coin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FIFO/Element.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/FIFO/Element.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FIFO/Queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/FIFO/Queue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FIFO/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/FIFO/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LIFO/Element.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/LIFO/Element.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LIFO/Stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/LIFO/Stack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LIFO/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/LIFO/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/Controller/PointController.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/MVC/Controller/PointController.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/Model/Point2D.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/MVC/Model/Point2D.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/View/ConsoleView.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/MVC/View/ConsoleView.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/View/TkView.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/MVC/View/TkView.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/MVC/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC_Calculator/Controller/CalculatorController.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/MVC_Calculator/Controller/CalculatorController.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC_Calculator/Model/Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/MVC_Calculator/Model/Calculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC_Calculator/View/TkView.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/MVC_Calculator/View/TkView.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC_Calculator/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/MVC_Calculator/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC_RegistrationForm/Controller/RegistrationFormController.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/MVC_RegistrationForm/Controller/RegistrationFormController.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC_RegistrationForm/Model/RegistrationForm.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/MVC_RegistrationForm/Model/RegistrationForm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC_RegistrationForm/View/TkAdministrationView.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/MVC_RegistrationForm/View/TkAdministrationView.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC_RegistrationForm/View/TkView.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/MVC_RegistrationForm/View/TkView.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC_RegistrationForm/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/MVC_RegistrationForm/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Materials_Guns/Materials/Leather.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Materials_Guns/Materials/Leather.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Materials_Guns/Materials/Material.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Materials_Guns/Materials/Material.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Materials_Guns/Materials/Metal.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Materials_Guns/Materials/Metal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Materials_Guns/Materials/Plastic.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Materials_Guns/Materials/Plastic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Materials_Guns/Materials/Stone.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Materials_Guns/Materials/Stone.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Materials_Guns/Materials/Thread.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Materials_Guns/Materials/Thread.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Materials_Guns/Materials/Wood.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Materials_Guns/Materials/Wood.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Materials_Guns/Parts/Blade.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Materials_Guns/Parts/Blade.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Materials_Guns/Parts/Bowstring.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Materials_Guns/Parts/Bowstring.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Materials_Guns/Parts/Garda.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Materials_Guns/Parts/Garda.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Materials_Guns/Parts/Handle.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Materials_Guns/Parts/Handle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Materials_Guns/Weapons/Throwing (medium radius)/Bow.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Materials_Guns/Weapons/Throwing (medium radius)/Bow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Materials_Guns/Weapons/Throwing/Axe.py" beforeDir="false" afterPath="$PROJECT_DIR$/Client-Server Programming/First/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Materials_Guns/Weapons/Throwing/Knive.py" beforeDir="false" afterPath="$PROJECT_DIR$/Client-Server Programming/First/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Materials_Guns/Weapons/Throwing/Spear.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Materials_Guns/Weapons/Throwing/Axe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Materials_Guns/Weapons/Weapon.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Materials_Guns/Weapons/Weapon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Materials_Guns/Weapons/Сutting/ Two-handed/Claymore.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Materials_Guns/Weapons/Throwing/Knive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Materials_Guns/Weapons/Сutting/One-handed/Sword.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Materials_Guns/Weapons/Throwing/Spear.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Molecules/Atom.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Molecules/Atom.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Molecules/Molecule.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Molecules/Molecule.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Overloading/Coordinates.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Overloading/Coordinates.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Overloading/Figure.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Overloading/Figure.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Overloading/Line.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Overloading/Line.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Overloading/Square.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Overloading/Square.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Point_Line_Square/Line.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Point_Line_Square/Line.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Point_Line_Square/Point2D.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Point_Line_Square/Point2D.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Point_Line_Square/Square.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Point_Line_Square/Square.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Snake_Game/Field.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Snake_Game/Field.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Snake_Game/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Snake_Game/Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Snake_Game/Point2D.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Snake_Game/Point2D.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Snake_Game/Snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Snake_Game/Snake.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sneakers/ProtectedSneakers.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Sneakers/ProtectedSneakers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sneakers/RunningSneakers.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Sneakers/RunningSneakers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sneakers/Scripts.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Sneakers/Scripts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sneakers/Sneakers.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Sneakers/Sneakers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sneakers/WinterSneakers.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Sneakers/WinterSneakers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TKINTER/TKINTER.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/TKINTER/TKINTER.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TKINTER/TKINTER2.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/TKINTER/TKINTER2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TKINTER/TKINTER3.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/TKINTER/TKINTER3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TKINTER/TKINTER4.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/TKINTER/TKINTER4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tic_Tac_Toe/Cell.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Tic_Tac_Toe/Cell.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tic_Tac_Toe/Circle.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Tic_Tac_Toe/Circle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tic_Tac_Toe/Cross.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Tic_Tac_Toe/Cross.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tic_Tac_Toe/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP and Sistem Programming/Tic_Tac_Toe/Game.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +27,8 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -109,6 +46,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2V19cFaJWECPrR3z9YAd7xqeoIs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -120,7 +60,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/student/PycharmProjects/pythonProject&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Programs/PyCharm 2023.2.1/Python-OOP_Classworks/Client-Server Programming/Second&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -131,6 +71,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Programs\PyCharm 2023.2.1\Python-OOP_Classworks\Client-Server Programming\Second" />
       <recent name="C:\Users\student\PycharmProjects\pythonProject" />
       <recent name="C:\Users\student\PycharmProjects\pythonProject\ Serialization_and_deserialization" />
     </key>
@@ -142,7 +83,7 @@
       <recent name="C:\Users\student\PycharmProjects\pythonProject\MVC\Controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.client">
+  <component name="RunManager" selected="Python.client3">
     <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,6 +98,72 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Client-Server Programming/First/client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="client1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-OOP_Classworks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Client-Server Programming/Second" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Client-Server Programming/Second/client1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="client2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-OOP_Classworks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Client-Server Programming/Second" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Client-Server Programming/Second/client2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="client3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-OOP_Classworks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Client-Server Programming/Second" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Client-Server Programming/Second/client3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,20 +194,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
+    <configuration name="server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-OOP_Classworks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Client-Server Programming/First" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Client-Server Programming/Second" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Client-Server Programming/First/server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Client-Server Programming/Second/server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,8 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.client3" />
+        <item itemvalue="Python.client2" />
+        <item itemvalue="Python.client1" />
+        <item itemvalue="Python.server (1)" />
         <item itemvalue="Python.client" />
-        <item itemvalue="Python.server" />
       </list>
     </recent_temporary>
   </component>
@@ -267,6 +277,10 @@
       <workItem from="1702456387580" duration="2257000" />
       <workItem from="1702459032927" duration="6629000" />
       <workItem from="1707295012180" duration="3149000" />
+      <workItem from="1707896146000" duration="126000" />
+      <workItem from="1707896284890" duration="2887000" />
+      <workItem from="1707899194539" duration="157000" />
+      <workItem from="1707899433700" duration="6074000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1695806185519</created>
@@ -495,16 +509,20 @@
     <option name="LAST_COMMIT_MESSAGE" value="twenty-fourth commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonProject$TKINTER.coverage" NAME="TKINTER Coverage Results" MODIFIED="1700037246076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TKINTER" />
-    <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1707297711878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pythonProject$TkView.coverage" NAME="TkView Coverage Results" MODIFIED="1702456429453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MVC_RegistrationForm/View" />
-    <SUITE FILE_PATH="coverage/pythonProject$TKINTER3.coverage" NAME="TKINTER3 Coverage Results" MODIFIED="1701861560915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TKINTER" />
+    <SUITE FILE_PATH="coverage/Python_OOP_Classworks$client2.coverage" NAME="client2 Coverage Results" MODIFIED="1707905534440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/Second" />
     <SUITE FILE_PATH="coverage/pythonProject$PointController.coverage" NAME="PointController Coverage Results" MODIFIED="1700649178435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MVC/Controller" />
-    <SUITE FILE_PATH="coverage/pythonProject$server.coverage" NAME="server Coverage Results" MODIFIED="1707299050869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/First" />
-    <SUITE FILE_PATH="coverage/pythonProject$TKINTER2.coverage" NAME="TKINTER2 Coverage Results" MODIFIED="1700041778479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TKINTER" />
+    <SUITE FILE_PATH="coverage/pythonProject$client.coverage" NAME="client Coverage Results" MODIFIED="1707299052657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/First" />
+    <SUITE FILE_PATH="coverage/pythonProject$TkView.coverage" NAME="TkView Coverage Results" MODIFIED="1702456429453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MVC_RegistrationForm/View" />
     <SUITE FILE_PATH="coverage/pythonProject$TkAdministrationForm.coverage" NAME="TkAdministrationForm Coverage Results" MODIFIED="1701863608728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MVC_RegistrationForm/View" />
     <SUITE FILE_PATH="coverage/pythonProject$TKINTER4.coverage" NAME="TKINTER4 Coverage Results" MODIFIED="1701861539744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TKINTER" />
     <SUITE FILE_PATH="coverage/pythonProject$Calculator.coverage" NAME="Calculator Coverage Results" MODIFIED="1701852673843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MVC_Calculator/Model" />
-    <SUITE FILE_PATH="coverage/pythonProject$client.coverage" NAME="client Coverage Results" MODIFIED="1707299052657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/First" />
+    <SUITE FILE_PATH="coverage/Python_OOP_Classworks$client1.coverage" NAME="client1 Coverage Results" MODIFIED="1707905530790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/Second" />
+    <SUITE FILE_PATH="coverage/Python_OOP_Classworks$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1707905528144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/Second" />
+    <SUITE FILE_PATH="coverage/pythonProject$TKINTER.coverage" NAME="TKINTER Coverage Results" MODIFIED="1700037246076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TKINTER" />
+    <SUITE FILE_PATH="coverage/pythonProject$TKINTER3.coverage" NAME="TKINTER3 Coverage Results" MODIFIED="1701861560915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TKINTER" />
+    <SUITE FILE_PATH="coverage/pythonProject$server.coverage" NAME="server Coverage Results" MODIFIED="1707299050869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/First" />
+    <SUITE FILE_PATH="coverage/Python_OOP_Classworks$client3.coverage" NAME="client3 Coverage Results" MODIFIED="1707905536058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/Second" />
+    <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1707297711878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$TKINTER2.coverage" NAME="TKINTER2 Coverage Results" MODIFIED="1700041778479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TKINTER" />
   </component>
 </project>
