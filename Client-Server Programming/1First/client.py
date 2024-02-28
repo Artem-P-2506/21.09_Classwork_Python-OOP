@@ -2,7 +2,7 @@ import socket
 
 client = socket.socket()
 host = socket.gethostname()
-port = 4000
+port = 4100
 print("Client start!")
 
 client.connect((host, port))

@@ -2,7 +2,7 @@ import socket
 
 server = socket.socket()
 host = socket.gethostname()
-port = 4000
+port = 4100
 
 server.bind((host, port))
 server.listen(5)
