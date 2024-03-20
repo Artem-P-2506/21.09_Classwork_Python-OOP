@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d45fd1b5-5250-41f4-8cd8-5144fdeb47b7" name="Changes" comment="twenty-sixth commit">
-      <change afterPath="$PROJECT_DIR$/Client-Server Programming/3Third/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client-Server Programming/3Third/dataWrapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client-Server Programming/3Third/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client-Server Programming/4Fourth/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client-Server Programming/4Fourth/dataWrapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client-Server Programming/4Fourth/server.py" afterDir="false" />
+    <list default="true" id="d45fd1b5-5250-41f4-8cd8-5144fdeb47b7" name="Changes" comment="twenty-seventh commit">
+      <change afterPath="$PROJECT_DIR$/Client-Server Programming/5Fifth/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client-Server Programming/6Sixth/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client-Server Programming/First/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/Client-Server Programming/1First/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client-Server Programming/First/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Client-Server Programming/1First/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client-Server Programming/Second/client1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Client-Server Programming/2Second/client1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client-Server Programming/Second/client2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Client-Server Programming/2Second/client2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client-Server Programming/Second/client3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Client-Server Programming/2Second/client3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client-Server Programming/Second/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Client-Server Programming/2Second/server.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,20 +52,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Programs/PyCharm 2023.2.1/Python-OOP_Classworks/Client-Server Programming/4Fourth",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Programs/PyCharm 2023.2.1/Python-OOP_Classworks/Client-Server Programming/4Fourth&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Programs\PyCharm 2023.2.1\Python-OOP_Classworks\Client-Server Programming\4Fourth" />
@@ -85,14 +75,14 @@
       <recent name="C:\Users\student\PycharmProjects\pythonProject\ Serialization_and_deserialization" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Programs\PyCharm 2023.2.1\Python-OOP_Classworks\Client-Server Programming" />
       <recent name="E:\Programs\PyCharm 2023.2.1\Python-OOP_Classworks\Client-Server Programming\4Fourth\testFiles" />
       <recent name="E:\Programs\PyCharm 2023.2.1\Python-OOP_Classworks\Client-Server Programming\4Fourth" />
-      <recent name="E:\Programs\PyCharm 2023.2.1\Python-OOP_Classworks\Client-Server Programming" />
       <recent name="C:\Users\student\PycharmProjects\pythonProject\OOP and Sistem Programming" />
       <recent name="C:\Users\student\PycharmProjects\pythonProject\MVC" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.client (2)">
+  <component name="RunManager">
     <configuration name="client (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-OOP_Classworks" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -301,7 +291,9 @@
       <workItem from="1707899433700" duration="6129000" />
       <workItem from="1707907220105" duration="391000" />
       <workItem from="1708504476213" duration="14068000" />
-      <workItem from="1709103759970" duration="7496000" />
+      <workItem from="1709103759970" duration="7940000" />
+      <workItem from="1709714006442" duration="4462000" />
+      <workItem from="1710918607603" duration="9705000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1695806185519</created>
@@ -493,7 +485,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707906823845</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="twenty-seventh commit">
+      <option name="closed" value="true" />
+      <created>1709113338114</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1709113338114</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +511,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Second commit" />
     <MESSAGE value="Third commit" />
     <MESSAGE value="Fourth commit" />
     <MESSAGE value="Fifth commit" />
@@ -536,7 +535,8 @@
     <MESSAGE value="twenty-third commit" />
     <MESSAGE value="twenty-fourth commit" />
     <MESSAGE value="twenty-sixth commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="twenty-sixth commit" />
+    <MESSAGE value="twenty-seventh commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="twenty-seventh commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_OOP_Classworks$client2.coverage" NAME="client2 Coverage Results" MODIFIED="1707905534440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/Second" />
@@ -554,11 +554,13 @@
     <SUITE FILE_PATH="coverage/pythonProject$TKINTER.coverage" NAME="TKINTER Coverage Results" MODIFIED="1700037246076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TKINTER" />
     <SUITE FILE_PATH="coverage/Python_OOP_Classworks$server__2_.coverage" NAME="server (2) Coverage Results" MODIFIED="1708528602356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/Third" />
     <SUITE FILE_PATH="coverage/pythonProject$TKINTER3.coverage" NAME="TKINTER3 Coverage Results" MODIFIED="1701861560915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TKINTER" />
+    <SUITE FILE_PATH="coverage/Python_OOP_Classworks$TKINTER4.coverage" NAME="TKINTER4 Coverage Results" MODIFIED="1710924871846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP and Sistem Programming/TKINTER" />
     <SUITE FILE_PATH="coverage/Python_OOP_Classworks$client__1_.coverage" NAME="client (1) Coverage Results" MODIFIED="1708528604733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/Third" />
     <SUITE FILE_PATH="coverage/pythonProject$server.coverage" NAME="server Coverage Results" MODIFIED="1707299050869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/First" />
-    <SUITE FILE_PATH="coverage/Python_OOP_Classworks$client__2_.coverage" NAME="client (2) Coverage Results" MODIFIED="1709113134705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/4Fourth" />
+    <SUITE FILE_PATH="coverage/Python_OOP_Classworks$client__2_.coverage" NAME="client (2) Coverage Results" MODIFIED="1709716415688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/4Fourth" />
     <SUITE FILE_PATH="coverage/Python_OOP_Classworks$client3.coverage" NAME="client3 Coverage Results" MODIFIED="1707905536058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/Second" />
     <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1707297711878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$TKINTER2.coverage" NAME="TKINTER2 Coverage Results" MODIFIED="1700041778479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TKINTER" />
+    <SUITE FILE_PATH="coverage/Python_OOP_Classworks$main.coverage" NAME="main Coverage Results" MODIFIED="1710928528626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/6Sixth" />
   </component>
 </project>
