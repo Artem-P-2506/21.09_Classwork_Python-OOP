@@ -1,5 +1,4 @@
 import requests
-import json
 import tkinter
 from tkinter import ttk
 from PIL import Image, ImageTk

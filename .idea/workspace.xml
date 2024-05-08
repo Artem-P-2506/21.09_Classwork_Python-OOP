@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d45fd1b5-5250-41f4-8cd8-5144fdeb47b7" name="Changes" comment="twenty-seventh commit">
-      <change afterPath="$PROJECT_DIR$/Client-Server Programming/5Fifth/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client-Server Programming/6Sixth/main.py" afterDir="false" />
+    <list default="true" id="d45fd1b5-5250-41f4-8cd8-5144fdeb47b7" name="Changes" comment="twenty-eighth commit">
+      <change afterPath="$PROJECT_DIR$/Client-Server Programming/10Tenth/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client-Server Programming/7Seventh/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client-Server Programming/7Seventh/dataWrapper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client-Server Programming/7Seventh/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client-Server Programming/8Eighth/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client-Server Programming/9Nineth/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client-Server Programming/9Nineth/picture1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client-Server Programming/9Nineth/temp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data Bases/DB1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client-Server Programming/6Sixth/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Client-Server Programming/6Sixth/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +65,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Programs/PyCharm 2023.2.1/Python-OOP_Classworks/Client-Server Programming/4Fourth&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Programs/PyCharm 2023.2.1/Python-OOP_Classworks/Client-Server Programming/7Seventh&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -68,43 +76,21 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Programs\PyCharm 2023.2.1\Python-OOP_Classworks\Client-Server Programming\7Seventh" />
       <recent name="E:\Programs\PyCharm 2023.2.1\Python-OOP_Classworks\Client-Server Programming\4Fourth" />
       <recent name="E:\Programs\PyCharm 2023.2.1\Python-OOP_Classworks\Client-Server Programming\Third" />
       <recent name="E:\Programs\PyCharm 2023.2.1\Python-OOP_Classworks\Client-Server Programming\Second" />
       <recent name="C:\Users\student\PycharmProjects\pythonProject" />
-      <recent name="C:\Users\student\PycharmProjects\pythonProject\ Serialization_and_deserialization" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Programs\PyCharm 2023.2.1\Python-OOP_Classworks\Client-Server Programming\9Nineth" />
+      <recent name="E:\Programs\PyCharm 2023.2.1\Python-OOP_Classworks\API" />
       <recent name="E:\Programs\PyCharm 2023.2.1\Python-OOP_Classworks\Client-Server Programming" />
       <recent name="E:\Programs\PyCharm 2023.2.1\Python-OOP_Classworks\Client-Server Programming\4Fourth\testFiles" />
       <recent name="E:\Programs\PyCharm 2023.2.1\Python-OOP_Classworks\Client-Server Programming\4Fourth" />
-      <recent name="C:\Users\student\PycharmProjects\pythonProject\OOP and Sistem Programming" />
-      <recent name="C:\Users\student\PycharmProjects\pythonProject\MVC" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="client (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-OOP_Classworks" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Client-Server Programming/Third" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Client-Server Programming/Third/client.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="client (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-OOP_Classworks" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,20 +114,41 @@
       <method v="2" />
     </configuration>
     <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
+      <module name="Python-OOP_Classworks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.11 (Desktop)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Client-Server Programming/First" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Client-Server Programming/7Seventh" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Client-Server Programming/First/client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Client-Server Programming/7Seventh/client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-OOP_Classworks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Client-Server Programming/6Sixth" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Client-Server Programming/6Sixth/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,34 +165,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11 (Python-OOP_Classworks)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\student\PycharmProjects\pythonProject\main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="server (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-OOP_Classworks" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Client-Server Programming/Third" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Client-Server Programming/Third/server.py" />
+      <option name="SCRIPT_NAME" value="C:/Users/student/PycharmProjects/pythonProject/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,21 +202,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-OOP_Classworks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Client-Server Programming/7Seventh" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Client-Server Programming/7Seventh/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.main" />
+      <item itemvalue="Python.client" />
+      <item itemvalue="Python.server" />
+      <item itemvalue="Python.main (1)" />
       <item itemvalue="Python.client (2)" />
       <item itemvalue="Python.server (3)" />
-      <item itemvalue="Python.client (1)" />
-      <item itemvalue="Python.server (2)" />
-      <item itemvalue="Python.client" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.client" />
+        <item itemvalue="Python.server" />
         <item itemvalue="Python.client (2)" />
         <item itemvalue="Python.server (3)" />
-        <item itemvalue="Python.client (1)" />
-        <item itemvalue="Python.server (2)" />
-        <item itemvalue="Python.client" />
+        <item itemvalue="Python.main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +301,17 @@
       <workItem from="1708504476213" duration="14068000" />
       <workItem from="1709103759970" duration="7940000" />
       <workItem from="1709714006442" duration="4462000" />
-      <workItem from="1710918607603" duration="9705000" />
+      <workItem from="1710918607603" duration="9784000" />
+      <workItem from="1711016410242" duration="4000" />
+      <workItem from="1711529024672" duration="149000" />
+      <workItem from="1711529185335" duration="952000" />
+      <workItem from="1712124127108" duration="10992000" />
+      <workItem from="1712223902936" duration="668000" />
+      <workItem from="1712738061269" duration="691000" />
+      <workItem from="1713334072144" duration="5725000" />
+      <workItem from="1713339844459" duration="5097000" />
+      <workItem from="1714547173692" duration="5321000" />
+      <workItem from="1715154367286" duration="6770000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1695806185519</created>
@@ -493,7 +511,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709113338114</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="twenty-eighth commit">
+      <option name="closed" value="true" />
+      <created>1710928596055</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1710928596055</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +537,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Third commit" />
     <MESSAGE value="Fourth commit" />
     <MESSAGE value="Fifth commit" />
     <MESSAGE value="Sixth commit" />
@@ -536,31 +561,33 @@
     <MESSAGE value="twenty-fourth commit" />
     <MESSAGE value="twenty-sixth commit" />
     <MESSAGE value="twenty-seventh commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="twenty-seventh commit" />
+    <MESSAGE value="twenty-eighth commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="twenty-eighth commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_OOP_Classworks$client2.coverage" NAME="client2 Coverage Results" MODIFIED="1707905534440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/Second" />
     <SUITE FILE_PATH="coverage/pythonProject$PointController.coverage" NAME="PointController Coverage Results" MODIFIED="1700649178435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MVC/Controller" />
     <SUITE FILE_PATH="coverage/pythonProject$client.coverage" NAME="client Coverage Results" MODIFIED="1707299052657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/First" />
     <SUITE FILE_PATH="coverage/pythonProject$TkView.coverage" NAME="TkView Coverage Results" MODIFIED="1702456429453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MVC_RegistrationForm/View" />
-    <SUITE FILE_PATH="coverage/Python_OOP_Classworks$client.coverage" NAME="client Coverage Results" MODIFIED="1707907526717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/First" />
+    <SUITE FILE_PATH="coverage/Python_OOP_Classworks$client.coverage" NAME="client Coverage Results" MODIFIED="1713335831740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/7Seventh" />
     <SUITE FILE_PATH="coverage/pythonProject$TkAdministrationForm.coverage" NAME="TkAdministrationForm Coverage Results" MODIFIED="1701863608728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MVC_RegistrationForm/View" />
     <SUITE FILE_PATH="coverage/pythonProject$TKINTER4.coverage" NAME="TKINTER4 Coverage Results" MODIFIED="1701861539744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TKINTER" />
-    <SUITE FILE_PATH="coverage/Python_OOP_Classworks$server__3_.coverage" NAME="server (3) Coverage Results" MODIFIED="1709113132527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/4Fourth" />
+    <SUITE FILE_PATH="coverage/Python_OOP_Classworks$server__3_.coverage" NAME="server (3) Coverage Results" MODIFIED="1712133974830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/4Fourth" />
     <SUITE FILE_PATH="coverage/pythonProject$Calculator.coverage" NAME="Calculator Coverage Results" MODIFIED="1701852673843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MVC_Calculator/Model" />
     <SUITE FILE_PATH="coverage/Python_OOP_Classworks$client1.coverage" NAME="client1 Coverage Results" MODIFIED="1707905530790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/Second" />
-    <SUITE FILE_PATH="coverage/Python_OOP_Classworks$server.coverage" NAME="server Coverage Results" MODIFIED="1708505197251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/Second" />
+    <SUITE FILE_PATH="coverage/Python_OOP_Classworks$server.coverage" NAME="server Coverage Results" MODIFIED="1712138293651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/7Seventh" />
     <SUITE FILE_PATH="coverage/Python_OOP_Classworks$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1707907299234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/Second" />
+    <SUITE FILE_PATH="coverage/Python_OOP_Classworks$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1712124270837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/6Sixth" />
     <SUITE FILE_PATH="coverage/pythonProject$TKINTER.coverage" NAME="TKINTER Coverage Results" MODIFIED="1700037246076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TKINTER" />
     <SUITE FILE_PATH="coverage/Python_OOP_Classworks$server__2_.coverage" NAME="server (2) Coverage Results" MODIFIED="1708528602356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/Third" />
     <SUITE FILE_PATH="coverage/pythonProject$TKINTER3.coverage" NAME="TKINTER3 Coverage Results" MODIFIED="1701861560915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TKINTER" />
     <SUITE FILE_PATH="coverage/Python_OOP_Classworks$TKINTER4.coverage" NAME="TKINTER4 Coverage Results" MODIFIED="1710924871846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP and Sistem Programming/TKINTER" />
     <SUITE FILE_PATH="coverage/Python_OOP_Classworks$client__1_.coverage" NAME="client (1) Coverage Results" MODIFIED="1708528604733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/Third" />
     <SUITE FILE_PATH="coverage/pythonProject$server.coverage" NAME="server Coverage Results" MODIFIED="1707299050869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/First" />
-    <SUITE FILE_PATH="coverage/Python_OOP_Classworks$client__2_.coverage" NAME="client (2) Coverage Results" MODIFIED="1709716415688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/4Fourth" />
+    <SUITE FILE_PATH="coverage/Python_OOP_Classworks$client__2_.coverage" NAME="client (2) Coverage Results" MODIFIED="1712133977224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/4Fourth" />
     <SUITE FILE_PATH="coverage/Python_OOP_Classworks$client3.coverage" NAME="client3 Coverage Results" MODIFIED="1707905536058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/Second" />
     <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1707297711878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$TKINTER2.coverage" NAME="TKINTER2 Coverage Results" MODIFIED="1700041778479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TKINTER" />
-    <SUITE FILE_PATH="coverage/Python_OOP_Classworks$main.coverage" NAME="main Coverage Results" MODIFIED="1710928528626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/6Sixth" />
+    <SUITE FILE_PATH="coverage/Python_OOP_Classworks$main.coverage" NAME="main Coverage Results" MODIFIED="1715163594254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/10Tenth" />
   </component>
 </project>
