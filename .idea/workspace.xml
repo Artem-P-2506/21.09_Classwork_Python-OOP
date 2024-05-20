@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d45fd1b5-5250-41f4-8cd8-5144fdeb47b7" name="Changes" comment="twenty-eighth commit">
-      <change afterPath="$PROJECT_DIR$/Client-Server Programming/10Tenth/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client-Server Programming/7Seventh/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client-Server Programming/7Seventh/dataWrapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client-Server Programming/7Seventh/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client-Server Programming/8Eighth/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client-Server Programming/9Nineth/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client-Server Programming/9Nineth/picture1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client-Server Programming/9Nineth/temp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Bases/DB1.py" afterDir="false" />
+    <list default="true" id="d45fd1b5-5250-41f4-8cd8-5144fdeb47b7" name="Changes" comment="twenty-ninth commit">
+      <change afterPath="$PROJECT_DIR$/Client-Server Programming/11Eleventh/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client-Server Programming/6Sixth/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Client-Server Programming/6Sixth/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +81,7 @@
       <recent name="E:\Programs\PyCharm 2023.2.1\Python-OOP_Classworks\Client-Server Programming\4Fourth" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration name="client (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-OOP_Classworks" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -311,7 +302,8 @@
       <workItem from="1713334072144" duration="5725000" />
       <workItem from="1713339844459" duration="5097000" />
       <workItem from="1714547173692" duration="5321000" />
-      <workItem from="1715154367286" duration="6770000" />
+      <workItem from="1715154367286" duration="7075000" />
+      <workItem from="1715752895817" duration="9307000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1695806185519</created>
@@ -519,7 +511,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710928596055</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="twenty-ninth commit">
+      <option name="closed" value="true" />
+      <created>1715163822326</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1715163822326</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,7 +537,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fourth commit" />
     <MESSAGE value="Fifth commit" />
     <MESSAGE value="Sixth commit" />
     <MESSAGE value="Sixth(full) commit" />
@@ -562,7 +561,8 @@
     <MESSAGE value="twenty-sixth commit" />
     <MESSAGE value="twenty-seventh commit" />
     <MESSAGE value="twenty-eighth commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="twenty-eighth commit" />
+    <MESSAGE value="twenty-ninth commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="twenty-ninth commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_OOP_Classworks$client2.coverage" NAME="client2 Coverage Results" MODIFIED="1707905534440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/Second" />
@@ -588,6 +588,6 @@
     <SUITE FILE_PATH="coverage/Python_OOP_Classworks$client3.coverage" NAME="client3 Coverage Results" MODIFIED="1707905536058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/Second" />
     <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1707297711878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$TKINTER2.coverage" NAME="TKINTER2 Coverage Results" MODIFIED="1700041778479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TKINTER" />
-    <SUITE FILE_PATH="coverage/Python_OOP_Classworks$main.coverage" NAME="main Coverage Results" MODIFIED="1715163594254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/10Tenth" />
+    <SUITE FILE_PATH="coverage/Python_OOP_Classworks$main.coverage" NAME="main Coverage Results" MODIFIED="1715762705160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Client-Server Programming/11Eleventh" />
   </component>
 </project>
