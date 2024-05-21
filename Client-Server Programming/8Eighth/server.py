@@ -1,11 +1,11 @@
 import socket
-import json
 import requests
+import json
 
-API_KEY = "TinzauAlhq80OL1cW48ej4sBPlcDkGVbmjIt1boG"
+API_KEY = "cXRKzZO0C7RS7jBHsJjlF7ZwbwVgwvGNh1Mg1pCs"# !Если риложение работает не коректно - НУЖНО ОНОВИТЬ КЛЮЧ
 URL = "https://api.nasa.gov/neo/rest/v1/feed"
 
-def fetch_asteroid_data(data):
+def sendAsteroidData(data):
     startDate = data['start_date']
     endDate = data['end_date']
     params = {
@@ -40,12 +40,12 @@ server.bind((host, port))
 server.listen(5)
 conn, addr = server.accept()
 while True:
-    answer = conn.recv(1024).decode()
+    answer = conn.recv(4096).decode()
     data = json.loads(answer)
-    result = fetch_asteroid_data(data)
+    result = sendAsteroidData(data)
+    # ПРИ ИСПОЛЬЗОВАНИИ JSON В ОБРАТНОЙ ОТПРАВКЕ ДАННЫХ МОГУТ РАНДОМНО ВОЗНИКАТЬ ОШИБКИ "ВНУТРИ" JSON-БИБЛИОТЕКИ
     response = json.dumps(result)
     conn.send(response.encode())
 
 server.close()
 print("\nServer close!")
-

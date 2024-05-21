@@ -13,14 +13,13 @@ def clickSearch():
 
     request = json.dumps(params)
     client.send(request.encode())
-
-    answer = client.recv(1024).decode()
+    answer = client.recv(4096).decode()
     data = json.loads(answer)
-
     labelResult['text'] = data
+    root.update()
 
 
-#========================================= GUI =========================================
+#==================================== GUI ====================================
 client = socket.socket()
 host = socket.gethostname()
 port = 4000
