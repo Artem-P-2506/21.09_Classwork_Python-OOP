@@ -6,6 +6,9 @@ from PIL import Image, ImageTk
 key = "42972882-0f77eec6bd9a961c014b42386"
 
 def clickSearch():
+    labelStatus.configure(text="!!! WAIT, DOWNLOADING !!!", foreground="red", font=3)
+    labelStatus.place(x=565, y=7)
+    root.update()
     req = enterReq.get()
     res = requests.get(f"https://pixabay.com/api/?key={key}&q={req}&image_type=photo&per_page=6")
     print(f"Status:\t{res.status_code}")
@@ -21,9 +24,13 @@ def clickSearch():
 
     print("--- DOWNLOAD COMPLETE !!!")
     label.configure(background="green")
+    labelStatus.configure(text="CLICK 'SHOW PICTURES'", foreground="green")
+    labelStatus.place(x=580, y=7)
 
 def clickShow():
-    label.configure(background="red")
+    label.configure(background="orange")
+    labelStatus.configure(text="")
+    labelStatus.place(x=769, y=7)
     for i, canvas in enumerate([canvas1, canvas2, canvas3, canvas4, canvas5, canvas6], start=1):
         img = Image.open(f"picture{i}.png")
         img = img.resize((300, 300))
@@ -48,6 +55,9 @@ enterReq.configure(width=100)
 buttonSearch = ttk.Button(text="SEARCH", command=clickSearch)
 buttonSearch.place(x=772, y=6)
 buttonSearch.configure(width=35)
+
+labelStatus = ttk.Label(text="", font=3)
+labelStatus.place(x=769, y=7)
 
 canvas1 = tkinter.Canvas(root, width=300, height=300)
 canvas1.place(x=25, y=70)
